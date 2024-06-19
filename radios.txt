@@ -1,0 +1,11 @@
+Nashe 2.0 (40kbps)%tg-gw.com:8000%/nashe2.mp3%40
+Nashe (40kbps)%tg-gw.com:8000%/nashe.mp3%40
+Anthenne Bayern (40kbps)%tg-gw.com:8000%/ab.mp3%40
+FreshRock (40kbps)%tg-gw.com:8000%/freshrock.mp3%40
+Angels Radio (40kbps)%tg-gw.com:8000%/angels.mp3%40
+Dorozhnoe (40kbps)%tg-gw.com:8000%/dor.mp3%40
+Ivanovo FM (40kbps)%tg-gw.com:8000%/ivanovo.mp3%40
+32 Radio (40kbps)%tg-gw.com:8000%/32.mp3%40
+Shanson RU (40kbps)%tg-gw.com:8000%/chanson.mp3%40
+TEST (40kbps)%tg-gw.com:8000%/test.mp3%40
+freshrock (128 kbps)%stream.freshrock.net:8000%/128.mp3%128
