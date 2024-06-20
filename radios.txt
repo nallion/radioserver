@@ -9,3 +9,9 @@ Ivanovo FM (40kbps)%tg-gw.com:8000%/ivanovo.mp3%40
 Shanson RU (40kbps)%tg-gw.com:8000%/chanson.mp3%40
 TEST (40kbps)%tg-gw.com:8000%/test.mp3%40
 freshrock (128 kbps)%stream.freshrock.net:8000%/128.mp3%128
+lagrosse metal (40 kbps)%tg-gw.com:8000%/lagrosse.mp3%40
+Iskatel (40 kbps)%tg-gw.com:8000%/iskatel.mp3%40
+RU Rap 101ru (40 kbps)%tg-gw.com:8000%/rurap.mp3%40
+Caroline (128 kbps)%sc6.radiocaroline.net:8040%/mp3%128
+Radio Caroline (64 kbps)%sc2.radiocaroline.net:8000%/stream%64
+big radio UK (32 kbps)%209.236.126.18:8004%/%32
