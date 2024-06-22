@@ -25,8 +25,9 @@ die();
 $brmp3 = exec("ffmpeg -i $radiourl -f null 2>&1 | grep bitrate | awk -F ' ' '{print $6}'");
 $braac = exec("ffmpeg -i $radiourl -f null 2>&1 | grep bitrate | awk -F ' ' '{print $4}'");
 $brm3u8 = exec("ffmpeg -i $radiourl -f null 2>&1 | grep Stream | awk -F ' ' '{print $10}' | head -c 3");
+$brm3u8fltp = exec("ffmpeg -i $radiourl -f null 2>&1 | grep Stream | awk -F ' ' '{print $9}' | head -c 4");
 //echo $brm3u8;
-if (empty($brmp3 | $braac | $brm3u8)) {
+if (empty($brmp3 | $braac | $brm3u8 | $brm3u8fltp)) {
 //if (empty($brmp3) | empty($braac) | empty($brm3u8)) {
 echo "Error adding radio, cannot determine bitrate, maybe stream is dead?";
 die();
