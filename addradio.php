@@ -37,7 +37,7 @@ function generateRandomString($length = 10) {
     return substr(str_shuffle(str_repeat($x='0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', ceil($length/strlen($x)) )),1,$length);
 }
 $randstrradio = generateRandomString();
-$writetofile = "while true\r\n do\r\n ffmpeg -re -i $radiourl -acodec libmp3lame -ar 32000 -ab 40k -ac 1 -af \"equalizer=f=13000:width_type=h:width=4000:g=+40\" -bufsize 10240k -content_type 'audio/mpeg' -legacy_icecast 1 icecast://source:lfflu41b@127.0.0.1:8000/$randstrradio.mp3\r\n sleep2\r\n done\r\n";
+$writetofile = "while true\r\n do\r\n ffmpeg -re -i $radiourl -acodec libmp3lame -ar 32000 -ab 40k -ac 1 -af \"equalizer=f=13000:width_type=h:width=4000:g=+40\" -vn -bufsize 10240k -content_type 'audio/mpeg' -legacy_icecast 1 icecast://source:lfflu41b@127.0.0.1:8000/$randstrradio.mp3\r\n sleep2\r\n done\r\n";
 $filenameradio = "radios_scripts/$filename$randstrradio.sh";
 file_put_contents("$filenameradio", $writetofile);
 exec("dos2unix /var/www/html/iradio/$filenameradio");
